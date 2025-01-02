@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading_h2 {
+            background-color: red;
+        }
+        .change_color {
+            color: blue;
+        }
+        .hidden {
+            display: none;
+        }
+        button {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        button.grey {
+            background-color: grey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="clickMe()" class="my_div" id="main_id">div</div>
+
+    <div id="main_div" class="hidden">Welcome to DOM class</div>
+    <button onclick="addClass(this)">Add Class</button>
+    <button onclick="toggle(this)">Toggle Class</button>
+    <button onclick="remove(this)">Remove Class</button>
+    <button onclick="containClass(this)">Contain Class</button>
+
+    <script src="button.js"></script>
+</body>
+</html>
