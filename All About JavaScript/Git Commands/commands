@@ -1,0 +1,9 @@
+<!--Advanced Git Commands  
+1. Git Rebase
+2. Git Cherry-Pick 
+3. Git init
+4. Git Undoing
+Git Undoing is refers to the reverting or dischargin the changes in the last commit.-->
+<!--git reset --hard HEAD~1
+git reset --hard HEAD~1
+git push origin --force-->
