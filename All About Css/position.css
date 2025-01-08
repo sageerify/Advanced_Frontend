@@ -1,0 +1,42 @@
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    line-height: 70px;
+    padding: 10px;
+    font-family: cursive;
+    position: fixed;
+    /* bottom: 0px; */
+}
+.container{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* position: relative; */
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    /* position: relative; */
+    /* top: 100px; */
+    left: 800px;
+    bottom: 0px;
+}
+    h1{
+        position: relative;
+        top: 100px;
+        /* border-top-left-radius: ; */
+
+
+
+    }
+    button
+{
+    position: relative;
+    bottom: 0px;
+
+}

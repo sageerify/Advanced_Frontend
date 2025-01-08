@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 30px;
+    /* z-index: 10; */
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    z-index: -1;
+
+    
+}

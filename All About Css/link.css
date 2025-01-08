@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+a:hover{
+    background-color: rgb(98, 41, 41);
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: palegoldenrod;
+}
+/* a:active{
+    color: yellow;
+} */

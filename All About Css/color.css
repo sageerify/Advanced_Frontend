@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+       color: white;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+h1{
+ color: white;
+}
+.button{
+    cursor: pointer;
+}
+.link
+{
+    color: aqua;
+    font-size: 40px;
+}

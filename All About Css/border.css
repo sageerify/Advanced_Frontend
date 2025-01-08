@@ -1,0 +1,15 @@
+h1{
+    border: solid black 4px;
+    border-radius: 4px;
+}
+.container{
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+    border: red solid 5px ;
+    border-radius: 10px;
+    /* border-radius: 4px;
+    border-color: burlywood;
+    border-bottom-style: double; */
+    border-style: dotted solid double dashed;
+}

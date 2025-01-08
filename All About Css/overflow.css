@@ -1,0 +1,43 @@
+.container{
+    width: 200px;
+    background-color: black;
+    height: 300px;
+    overflow: auto;
+}
+p{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    /* text-decoration: underline; */
+    text-decoration: overline;
+    /* text-shadow: ; */
+    text-indent: 3px;
+    /* word-spacing: 50px; */
+
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    text-shadow: 3px 3px 5px black;
+}
+h1:hover{
+    color: black;
+    cursor: pointer;
+    transition: 3s;
+}
+/* /* .container:hover{
+    background-color: red;
+    cursor: pointer;
+    /* transition: 3s;*/ 
+
+.p:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: 3s;
+    font-size: 20px;
+}
