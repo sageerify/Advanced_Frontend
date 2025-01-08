@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Prototypes and Inheritance</h3>
+    <script>
+      // console.log("hi");
+
+      let families = { // {}
+        name: "saima",
+        lname: "AKhtar",
+        introduction() {
+          return `my name is ${this.name} and last name is ${this.lname}`;
+        },
+      };
+      let families2 = Object.create(families);
+      // families.name = "Sameer"
+      families2.age = 20;
+
+      families2.getDetail = function () {
+        return `${this.introduction()} - Age :  ${this.age}`;
+      };
+
+      let families3 = Object.create(families2);
+      // families.name = "Sameer"
+      console.log(families3)
+    //   console.log(__proto__);e
+
+    // constructor   created empty object
+    // super()
+
+      class Family {
+        constructor(){
+
+            this.name ="saima";
+            // this.lname =  "AKhtar";
+        }
+       
+
+       
+      }
+      class Family2 extends Family {
+        constructor(){
+            super() // parents pro get 
+            // this.name = "Sameer"
+            this.age = 30
+
+        };
+      }
+      let familyData = new Family2()
+      console.log(familyData.name);
+
+    </script>
+  </body>
+</html>
