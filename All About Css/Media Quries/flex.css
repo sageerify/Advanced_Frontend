@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box
+{
+    background-color: red;
+    padding: 20px;
+    margin: 10px;
+    width: 60px;
+    height: 40px;
+}
+.parent{
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    /* flex: wrap; */
+    height: 450px;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    text-align: center;
+    /* align-items: center; */
+    
+
+
+
+}
+.boxer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 70px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: flex-start;
+}

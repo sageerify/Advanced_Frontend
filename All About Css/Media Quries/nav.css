@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-bar{
+    overflow: hidden;
+    background-color: blue;
+    /* color: white; */
+}
+.nav-bar a{
+    color: white;
+    float: left;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: hotpink;
+    transform: 1s;
+
+}
+@media screen and (max-width: 600px){
+    .nav-bar a{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
