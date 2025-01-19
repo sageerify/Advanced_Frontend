@@ -1,22 +1,21 @@
-document.getElementById("contactForm")?.addEventListener("submit", function(event){
-    EventTarget.preventDefault();
+document.getElementById("contactForm")?.addEventListener("submit", function(event) {
+    event.preventDefault();
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
-    const message = document.getElementById("messages").value;
+    const message = document.getElementById("message").value;
 
-    alert( `Thank you for your message, ${name}! We will get back to you at ${email}.`);
-
-
+    alert(`Thank you for your message, ${name}! We will get back to you at ${email}.`);
 });
-function showProjectDetails(projectName){
-    alert(`More details about ${ProjectName} will be avaible soon!`);
 
+function showProjectDetails(projectName) {
+    alert(`More details about ${projectName} will be available soon!`);
 }
-function validateContactForm(){
+
+function validateContactForm() {
     const email = document.getElementById("email").value;
-    if(!email.include("@")){
+    if (!email.includes("@")) {
         alert("Please enter a valid email address.");
         return false;
     }
-    return false
+    return true;
 }
