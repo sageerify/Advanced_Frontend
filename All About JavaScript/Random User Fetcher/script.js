@@ -1,26 +1,28 @@
-let allUsers = [];
+let allUsers = []; //These are empty arrays to store the user data: all users, male users, and female users.
 let maleUsers = [];
 let femaleUsers = [];
-const base_url = "https://randomuser.me/api/?results=20"; // Default URL for fetching 20 users
-window.onload = function() {
+const base_url = "https://randomuser.me/api/?results=20"; //This is the URL used to fetch 20 random users from the API.
+ 
+window.onload = function() {// When the "Fetch Users" button is clicked, it calls the fetchUsers function to get the users from the API.
   document.getElementById("fetch-users-btn").addEventListener("click", () => {
     fetchUsers();
   });
   // Set up event listeners for gender-specific links
   document.getElementById("female-link").addEventListener("click", () => {
-    fetchUsersByGender("female");
+    fetchUsersByGender("female");  //it's fetch female user only
   });
   document.getElementById("male-link").addEventListener("click", () => {
-    fetchUsersByGender("male");
+    fetchUsersByGender("male"); //it's fetch male user only
   });
 };
 // Fetch users (default, no gender)
 async function fetchUsers() {
-  try {
-    const response = await fetch(base_url);
+  try { //This is an async function to fetch users from the API. The async allows the function to wait for the API's response without blocking other code.
+ 
+    const response = await fetch(base_url); //sends a request to the API to get the users.
     if (response.ok) {
       const data = await response.json();
-      allUsers = data.results;
+      allUsers = data.results;   //fetch the user successfully.
       // Show all users by default
       displayUserCards(allUsers);
       // Display gender filter links
