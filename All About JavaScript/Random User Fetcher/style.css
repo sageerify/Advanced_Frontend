@@ -53,3 +53,44 @@ body {
   .user-card button:hover {
     background-color: #0056b3;
   }
+
+  body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+  }
+  button {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+  }
+  .user-card {
+    background-color: #2d2d2d;
+    border: 1px solid #3c3c3c;
+    color: #dcdcdc;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .user-card button {
+    background-color: #008080;
+  }
+  .user-card button:hover {
+    background-color: #005757;
+  }
+      
+a{
+  background-color: red;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+#fetch-users-btn{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+cursor: pointer;  
+margin: 10px;
+}
+h1{
+  margin: 10px;
+}
