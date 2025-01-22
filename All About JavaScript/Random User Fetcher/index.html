@@ -7,12 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <button id="fetch-users-btn">Fetch Users</button>
-  <div id="gender-links">
-    <a id="male-link">Male</a>
-    <a id="female-link">Female</a>
+  <div id="app">
+    <button id="fetch-users-btn">Fetch Users</button>
+    <div id="gender-links" style="display: none;">
+      <a href="#" id="male-link">Male Users</a> |
+      <a href="#" id="female-link">Female Users</a>
+    </div>
+    <div id="users-container" style="display: none;"></div>
   </div>
-  <div id="users-container"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
