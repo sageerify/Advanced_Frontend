@@ -1,5 +1,5 @@
 // Detect the current page
-const currentPage = window.location.pathname.split("/").pop();
+const currentPage = window.location.pathname.split("/").pop(); 
 
 // Functionality for the main page (index.html)
 if (currentPage === "index.html" || currentPage === "") {
