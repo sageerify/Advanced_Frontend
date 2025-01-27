@@ -1,18 +1,7 @@
-let x = 1;
-switch(x)
- {
-
-    case 1:
-        console.log("hello");
-        break;
-    case 2:
-        console.log("hi");
-        break;
-    case 3:
-        console.log(bye);
-        break;
-
-        default:
-            console.log("ok")
-
+function addNew(){
+    const para = document.createElement("p");
+    const node = document.createTextNode("subscribe our channel to get more videos")
+    para.appendChild(node);
+    const elem = document.querySelector("#box1");
+    elem.appendChild(para);
 }
