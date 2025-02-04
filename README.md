@@ -121,7 +121,7 @@ Refer to the README in each project folder for specific setup and usage instruct
 ---
 ## Contributing
 Contributions are welcome! If you want to improve this repository:
-- Fork the repository.
+- Fork the repository..
 - Create a new branch (`git checkout -b feature-name`).
 - Commit your changes (`git commit -m "Description of changes"`).
 - Push to the branch (`git push origin feature-name`).
