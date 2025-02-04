@@ -99,7 +99,7 @@ Ensure you have the following installed:
 - [Git](https://git-scm.com/)
 - A code editor like [VS Code](https://code.visualstudio.com/)
 
-### Installation
+### Installation Method
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/frontend-repo.git
