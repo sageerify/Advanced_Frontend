@@ -134,6 +134,8 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 ---
 
+---
+
 ## Contact
 For any queries, feel free to reach out:
 - **Email**: your-email@example.com
