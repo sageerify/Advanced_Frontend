@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 2rem;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content .btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-content .btn:hover {
+    background: #0056b3;
+}
+
+.hero-images {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my work, my passion, and my journey in web development.</p>
+            <a href="#projects" class="btn">Explore Projects</a>
+        </div>
+        <div class="hero-images">
+            <img src="images/hero-image1.jpg" alt="Creative workspace">
+            <img src="images/hero-image2.jpg" alt="Coding setup">
+            <img src="images/hero-image3.jpg" alt="Developer at work">
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Weather App</h3>
+                <p>A simple weather application using an external API.</p>
+                <button onclick="showProjectDetails('Weather App')">View Details</button>
+            </div>
+            <div class="project">
+                <h3>Project 2: To-Do List</h3>
+                <p>A task management app with add, edit, and delete features.</p>
+                <button onclick="showProjectDetails('To-Do List')">View Details</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+    <script>
+        document.getElementById("contactForm")?.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    alert(`Thank you for your message, ${name}! We will get back to you at ${email}.`);
+});
+
+function showProjectDetails(projectName) {
+    alert(`More details about ${projectName} will be available soon!`);
+}
+
+function validateContactForm() {
+    const email = document.getElementById("email").value;
+    if (!email.includes("@")) {
+        alert("Please enter a valid email address.");
+        return false;
+    }
+    return true;
+}
+    </script>
+</body>
+</html>
+
+

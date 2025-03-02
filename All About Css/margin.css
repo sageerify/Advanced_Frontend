@@ -1,0 +1,14 @@
+h1
+{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color: red;
+    color: white;
+    width: 500px;
+    border: 7px solid black;
+    /* margin-left: 100px;
+    margin-top: 50px; */
+    margin: 100px;
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+/* Property Transform
+value:
+Translate()
+Rotate()
+Scale()
+ScaleX()
+ScaleY()
+Skew()
+SkewX()
+SkewY() */
+/* Transform:matrix(sclaeX(), skewY(), skewX(), ScaleY(), translateX(), translateY() */
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    /* transform: translate(20px, 100px); */
+    /* transform: rotate(-50deg); */
+    margin-top: 300px;
+    margin-left: 200px;
+    
+
+}
+p
+{
+    line-height: 200px;
+}
+.box:hover{
+    /* transform: rotate(50deg); */
+    /* transform: scale(0.5); */
+    /* transform: skew(20deg, 40deg); */
+
+    transition: 2s;
+    transform: matrix(2, -0.5,0,1,0,0);
+}

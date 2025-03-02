@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 2rem;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content .btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-content .btn:hover {
+    background: #0056b3;
+}
+
+.hero-images {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.buttons{
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 4px ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    height: 250px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #333;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    color: white;
+}

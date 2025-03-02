@@ -1,0 +1,27 @@
+/* ul{
+    /* list-style-image: url('black.jpg') */
+    /* list-style-type: disc; */
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        box-shadow: 5px 5px 10px 10px black;
+    }
+    th,td{
+        border-bottom: 1px solid black;
+        padding: 10px;
+        text-align: auto;
+        vertical-align: middle;
+        height: 50px;
+    }
+    th{
+        background-color: green;
+    }
+    tr:hover{
+        background-color: rgb(196, 50, 50);
+        cursor: pointer;
+        transform: 1s;
+    }
+    tr:nth-child(even){
+        background-color: #e6d9d9;
+    }

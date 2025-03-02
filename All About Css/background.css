@@ -1,0 +1,39 @@
+/* body{
+    background-color: black;
+    text-align: center;
+    color: white;
+    background-image: url('black.jpg');
+}
+h1{
+    background-color: red;
+    color: white;
+
+}
+.button{
+    background-color: brown;
+    border: solid 3px;
+    border-color: white;
+} */
+
+
+/* Background Color in Css */
+ .main-container{
+    background-color: green;
+    /* background-image: url(black.jpg); */
+ }
+ h1{
+    background-color: pink;
+ }
+ .demo{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    color: white;
+    background-image: url('black.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: top; */
+    /* background: fixed no-repeat right top url(black.jpg) red; */
+
+ }

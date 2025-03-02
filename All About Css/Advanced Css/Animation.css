@@ -1,0 +1,44 @@
+.box {
+    background-color: rgb(201, 37, 37);
+    height: 100px;
+    width: 100px;
+    animation-name: demoAnimation;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demoAnimation {
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        background-color: black;
+        top: 0px;
+
+        left: 300px;
+
+    }
+
+    50% {
+        background-color: green;
+        top: 300px;
+        left: 300px;
+
+    }
+
+    75% {
+        background-color: yellow;
+        left: 0px;
+        top: 300px;
+    }
+
+    100% {
+        background-color: pink;
+        left: 0px;
+        top: 0px;
+    }
+}
