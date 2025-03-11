@@ -4,7 +4,7 @@ Welcome to the **Frontend Development Code Repository**! This repository is desi
 
 ---
 
-## Repository Structure
+## Repository Structure   
 
 The repository is divided into folders based on key topics and technologies in frontend development. Each folder contains code examples, projects, and detailed explanations.
 
