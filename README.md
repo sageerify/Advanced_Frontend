@@ -1,6 +1,6 @@
 # Frontend Development Code Repository for Beginners...
 
-Welcome to the **Frontend Development Code Repository**! This repository is designed to cover every essential concept of frontend development, organized into separate folders for better understanding and easy navigation.
+Welcome to the **Frontend Development Code Repository**! This repository is designed to cover every essential concept of frontend development, organized into separate folders for better understanding and easy navigation.   
 
 ---
 
@@ -132,7 +132,7 @@ Contributions are welcome! If you want to improve this repository:
 ## License
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
+
 
 ---
 
