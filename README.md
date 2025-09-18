@@ -1,4 +1,5 @@
 # Frontend Development Code Repository for Beginners
+---
 
 Welcome to the **Frontend Development Code Repository**! This repository is designed to cover every essential concept of frontend development, organized into separate folders for better understanding and easy navigation.   
 
